@@ -35,7 +35,7 @@ jobs:
       # Next.jsアプリをビルドする
       # プロジェクトルート直下に.nextディレクトリができる
       - name: build
-        run: npm run build | npm run export
+        run: npm run build
 
       # GitHub Pagesの仕様として_から始まるディレクトリが見えず404となる
       # これを回避するために.nojekyllファイルをoutディレクトリに作る
